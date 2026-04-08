@@ -43,7 +43,7 @@ unzip creditcardfraud.zip
 ### 2. Model Training & Validation
 Run the training script to perform cross-validation and generate the serialized model files (`scaler.joblib`, `logistic_regression_model.joblib`, and `xgboost_model.joblib`):
 ```bash
-python train_model.py
+python train.py
 ```
 
 ### 3. CLI Stream Simulation
